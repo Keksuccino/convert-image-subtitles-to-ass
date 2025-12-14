@@ -39,6 +39,8 @@ OPENROUTER_APP_NAME=subtitle_convert
 OPENROUTER_MODEL=google/gemini-2.5-flash
 ```
 
+There's an `.env.example` file. Just rename it and add a valid API key to get started.
+
 ## Run
 
 Dry-run (no API calls, useful to validate extraction/parsing/output):
