@@ -55,6 +55,7 @@ Real run (uses `.env` / `OPENROUTER_API_KEY`):
 
 Notes:
 
+- Source MKV files should be in a folder called `episodes`, e.g. `/episodes/cool_tv_show_S01E02.mkv`
 - Progress output can be disabled with `--no-progress`.
 - Default track selection is `--track-policy all` (process every PGS subtitle track found).
 - To force a specific PGS track id (from `mkvmerge -J`), use `--track-id 4` (repeatable).
